@@ -39,6 +39,13 @@ dependencies {
 	asciidoctorExt 'org.springframework.restdocs:spring-restdocs-asciidoctor' // (3)
 	testImplementation 'org.springframework.restdocs:spring-restdocs-mockmvc' // (4)
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	//Webflux
+	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'com.google.code.gson:gson:2.8.9'
+
+	//thymeleaf
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
 
 ext {
